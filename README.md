@@ -1,52 +1,15 @@
-# Vite App
+ 🌌 3D Solar System Project Overview
+My project is an interactive 3D visualization of the solar system, developed using HTML, CSS, JavaScript, and the Three.js library. It features a realistic representation of the Sun and eight planets, each accurately scaled and colored. The planets orbit the Sun, and users can interact with the system through various controls.
 
-## Project Overview
-This project is a Vue.js application set up using Vite as the build tool. It provides a fast development environment and optimized build process.
+🔭 Key Features
+Realistic Planetary Orbits: Each planet follows an elliptical orbit around the Sun, demonstrating orbital mechanics.
 
-## Project Structure
-```
-vite-app
-├── src
-│   ├── main.js        # Entry point of the application
-│   ├── App.vue       # Main Vue component
-│   └── assets
-│       └── style.css  # Application styles
-├── public
-│   └── index.html     # Main HTML file
-├── package.json       # npm configuration
-├── vite.config.js     # Vite configuration
-└── README.md          # Project documentation
-```
+Interactive Controls: Users can zoom in and out, reset the view, and toggle the visibility of orbits and labels.
 
-## Setup Instructions
+Informative Popups: Clicking on a planet displays a popup with details such as diameter, orbital period, and fun facts.
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd vite-app
-   ```
+Responsive Design: The visualization adjusts to different screen sizes, ensuring accessibility across devices.
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+🎯 Educational Value
+This project serves as an engaging educational tool, helping users understand the structure and dynamics of our solar system. By interacting with the 3D model, learners can better grasp concepts like planetary motion, relative sizes, and distances.
 
-3. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser**
-   Navigate to `http://localhost:3000` to see your application in action.
-
-## Usage
-- Modify the `src/App.vue` file to change the main component.
-- Add styles in `src/assets/style.css`.
-- Update the `public/index.html` file for any changes to the HTML structure.
-
-## Build for Production
-To create a production build, run:
-```bash
-npm run build
-```
-This will generate the optimized files in the `dist` directory.
